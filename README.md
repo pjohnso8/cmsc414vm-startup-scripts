@@ -20,7 +20,7 @@ Before running the script, ensure the following:
 3. **Windows File Extensions:**
    - On Windows, make sure the SSH config file is not saved as a `.txt` file (e.g., `config.txt`). It should be named simply `config`.
 4. **VM File Path:**
-   - Ensure the script points to the correct file path for your VM image (`cmsc414.qcow2`). Modify it if necessary.  
+   - Ensure the script points to the correct file path for your VM image (`cmsc414.qcow2`). Modify it if necessary at `file=cmsc414.qcow2`.
 5. **VS Code Extension**  
    - Ensure the Remote - SSH extension from Microsoft is installed on the host machine.  
 
