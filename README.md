@@ -1,13 +1,14 @@
 # Auto-Startup VM & Connect with VS Code Remote
 
 This script automates the process of starting up a virtual machine (VM) using QEMU and connecting to it via VS Code Remote SSH.
+This guide assumes the completion the instructions given from Canvas before starting.
 
 ## Prerequisites
 Before running the script, ensure the following:
 1. **Public Key Authentication:**
    - Your SSH public key (`id_rsa.pub`) must be added to the VM's `~/.ssh/authorized_keys`.
 2. **SSH Configuration:**
-   - Modify your SSH configuration file (`~/.ssh/config` or `C:\Users\YourUsername\.ssh\config` on Windows) as follows:
+   - Modify or create your SSH configuration file (`~/.ssh/config` or `C:\Users\YourUsername\.ssh\config` on Windows) as follows:
      ```
      Host cmsc414-vm
          HostName 127.0.0.1
