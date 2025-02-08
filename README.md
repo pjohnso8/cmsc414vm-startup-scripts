@@ -21,6 +21,8 @@ Before running the script, ensure the following:
    - On Windows, make sure the SSH config file is not saved as a `.txt` file (e.g., `config.txt`). It should be named simply `config`.
 4. **VM File Path:**
    - Ensure the script points to the correct file path for your VM image (`cmsc414.qcow2`). Modify it if necessary.
+   **VS Code Extension**
+   - Ensure the Remote - SSH extension from Microsoft is installed on the host machine.
 
 ## Usage
 Run the appropriate script based on your operating system.
