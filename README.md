@@ -1,6 +1,6 @@
 # Auto-Startup VM & Connect with VS Code Remote
 
-This script automates the process of starting up a virtual machine (VM) using QEMU and connecting to it via VS Code Remote SSH.
+This script automates the process of starting up a virtual machine (VM) using QEMU and connecting to it via VS Code Remote SSH.  
 This guide assumes the completion the instructions given from Canvas before starting.
 
 ## Prerequisites
@@ -20,9 +20,9 @@ Before running the script, ensure the following:
 3. **Windows File Extensions:**
    - On Windows, make sure the SSH config file is not saved as a `.txt` file (e.g., `config.txt`). It should be named simply `config`.
 4. **VM File Path:**
-   - Ensure the script points to the correct file path for your VM image (`cmsc414.qcow2`). Modify it if necessary.
-   **VS Code Extension**
-   - Ensure the Remote - SSH extension from Microsoft is installed on the host machine.
+   - Ensure the script points to the correct file path for your VM image (`cmsc414.qcow2`). Modify it if necessary.  
+5. **VS Code Extension**  
+   - Ensure the Remote - SSH extension from Microsoft is installed on the host machine.  
 
 ## Usage
 Run the appropriate script based on your operating system.
